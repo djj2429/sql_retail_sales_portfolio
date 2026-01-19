@@ -82,3 +82,18 @@ FROM (
     GROUP BY 1, 2
 ) ranked
 WHERE ranking = 1;
+
+
+## Key Insights
+- Sales vary significantly by month, with clear peak periods each year
+- Certain categories consistently generate higher revenue per transaction
+- A small group of customers contributes disproportionately to total sales
+- Purchasing behavior changes noticeably by time of day
+- Why This Project Matters
+
+## This project demonstrates:
+- Comfort with real SQL workflows, not just theory
+- Ability to clean and validate data before analysis
+-Translating raw data into business-relevant insights
+- Use of advanced SQL features like window functions and CTEs
+- It reflects the kind of SQL work expected in junior data analyst / BI roles.
